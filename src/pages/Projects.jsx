@@ -10,6 +10,7 @@ import { Project6 } from '../assets/images'
 import { Project7 } from '../assets/images'
 import { Project8 } from '../assets/images'
 import { Project9 } from '../assets/images'
+import { Project10 } from '../assets/images'
 
 function Projects() {
   return (
@@ -51,6 +52,10 @@ function Projects() {
             <div>
                 <img src={Project9} />
                 <p className="legend">Project 9 - Calculator App</p>
+            </div>
+            <div>
+                <img src={Project10} />
+                <p className="legend">Project 10 - Next.js/Firebase ToDo List App</p>
             </div>
     </Carousel>
 </div>
